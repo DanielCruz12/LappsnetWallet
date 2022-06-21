@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from '../styles/Global'; 
 
-const Landing = ({title,
+const Services = ({title,
     description,
     mockupImg,
     reverse,}) => {
@@ -52,4 +52,4 @@ const Landing = ({title,
   )
 }
 
-export default Landing
+export default Services

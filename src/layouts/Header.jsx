@@ -3,12 +3,10 @@ import "../styles/App.css";
 import Button from "../components/button/Button";
 import Helmet from "react-helmet";
 
-
-const LandingPage = ({
+const Header = ({
   title,
   description,
   mockupImg,
-  showBtn,
   banner,
   reverse,
 }) => {
@@ -84,4 +82,4 @@ const LandingPage = ({
   );
 };
 
-export default LandingPage;
+export default Header;
