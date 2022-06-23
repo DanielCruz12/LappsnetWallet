@@ -1,30 +1,23 @@
-import styles from "../styles/Global";
-import "../styles/App.css";
-import Button from "../components/button/Button";
+import styles from "../../styles/Global";
+import "../../styles/App.css";
+import Button from "../../components/button/Button";
 import Helmet from "react-helmet";
 
-const Header = ({
-  title,
-  description,
-  mockupImg,
-  banner,
-  reverse,
-}) => {
+const Header = ({ title, description, mockupImg, banner, reverse }) => {
   const Link = "https://web.lappsnet.io/";
 
   return (
     <>
-    <Helmet>
-    <title>Wallet</title>
-    </Helmet>
+      <Helmet>
+        <title>Lappsnet Wallet</title>
+      </Helmet>
 
       <div
         className={`min-h-screen ${styles.section} ${styles.bgWhite}
       ${banner}`}
       >
         <div
-          className={`flex items-center ${styles.boxClass
-          } w-10/12 sm:w-full minmd:w-3/4`}
+          className={`flex items-center ${styles.boxClass} w-10/12 sm:w-full minmd:w-3/4`}
         >
           <div
             className={`${styles.descDiv}
@@ -32,19 +25,19 @@ const Header = ({
         ${styles.textLeft}        
          `}
           >
-            <h1
-              className={`${styles.h1Text} ${ styles.whiteText
-              }`}
-            >
-              {title}
-            </h1>
-            <p
-              className={`${styles.descriptionText} ${ styles.whiteText
-              }`}
-            >
-              {description} <a href={Link} target="_blank" className={`${styles.a}`}rel="noreferrer" >the project website</a>
+            <h1 className={`${styles.h1Text} ${styles.whiteText}`}>{title}</h1>
+            <p className={`${styles.descriptionText} ${styles.whiteText}`}>
+              {description}{" "}
+              <a
+                href={Link}
+                target="_blank"
+                className={`${styles.a}`}
+                rel="noreferrer"
+              >
+                the project website
+              </a>
             </p>
-              <Button/>
+            <Button />
           </div>
 
           <div className={`flex-2 ${styles.flexCenter} p-12 sm:px-0`}>
@@ -52,14 +45,14 @@ const Header = ({
               src={mockupImg}
               className={`
           ${reverse ? "fadeLeftMini" : "fadeRightMini"}, 
-          ${styles.sectionImg}`}
+          ${styles.sectionImg}  w-2/2 sm:w-8/12`}
               alt="mockup"
             ></img>
           </div>
         </div>
       </div>
 
-{/*
+      {/*
             <h4>How does the wallet work?</h4>
             <p>
               The wallet generates a key, which is encrypted using a security
@@ -77,7 +70,6 @@ const Header = ({
           </div>
         </div>
       </div> */}
-      
     </>
   );
 };

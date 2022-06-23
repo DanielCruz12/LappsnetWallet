@@ -1,14 +1,12 @@
 html {
   margin: 0;
-  width: 100vw;
+  padding: 0;
+  width: 100%;
 }
 body {
   margin: 0;
-  width: 100vw;
-  display: block;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  color: rgb(166, 37, 37);
-  
+  width: 100%;
+  display: block;  
 }
 #pageContent {
   height: 90vh;

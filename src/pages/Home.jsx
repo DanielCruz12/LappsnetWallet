@@ -1,7 +1,13 @@
 import React from "react";
-import Header from "../layouts/Header";
-import Services from "../layouts/Services";
 import assets from "../assets";
+import {
+  Header,
+  Services,
+  Features,
+  Technologies,
+  Gallery,
+  Footer,
+} from "../layouts/index";
 
 const Home = () => {
   return (
@@ -22,6 +28,20 @@ const Home = () => {
         mockupImg={assets.first}
         reverse
       />
+      <Features />
+
+      <Technologies
+        title="How does the wallet work?"
+        description=" The wallet generates a key, which is encrypted using a security
+              device, such as your screen lock. The encrypted key is stored in
+              the browser."
+        mockupImg={assets.first}
+        reverse
+      />
+
+      <Gallery />
+
+      <Footer />
     </div>
   );
 };

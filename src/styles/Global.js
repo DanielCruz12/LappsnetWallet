@@ -11,14 +11,20 @@ const styles = {
     textLeft: "text-left",
     textRight: "text-right",
 
-    a: "no-underline font-bold font-IBMPlex text-1xl sm:text-4xl minmd:text-6xl minlg:text-8xl leading-12 minmd:leading-13",
+    a: "no-underline font-bold font-IBMPlex text-1xl sm:text-1xl minmd:text-3xl minlg:text-5xl leading-12 minmd:leading-13",
+
+    title: "text-2xl font-semibold",
+
+    T: "font-extrabold text-3xl",
+
+    miniT: "font-semibold",
 
     h1Text:
       "font-bold font-IBMPlex text-5xl sm:text-4xl minmd:text-6xl minlg:text-8xl leading-12 minmd:leading-13",
     pText:
       "my-5 minmd:my-10 font-IBMPlex font-light text-xl minmd:text-3xl minlg:text-4xl minmd:leading-16",
     descriptionText:
-      "my-5 minmd:my-10 font-IBMPlex font-light text-xl minmd:text-3xl minlg:text-4xl minmd:leading-16",
+      "my-5 minmd:my-10 font-IBMPlex font-light text-xl minmd:text-3xl minlg:text-4xl minmd:leading-16 sm:text-base",
     btnText: "text-white font-IBMPlex minmd:text-lg",
   
     btnPrimary:
@@ -28,7 +34,7 @@ const styles = {
   
     section: "flex justify-center items-center p-8 sm:p-8",
     subSection: "flex items-center w-full minmd:w-3/4",
-    descDiv: "flex-1 w-full flex justify-start flex-col md:mb-10 ",
+    descDiv: "flex-1  w-full flex justify-start flex-col md:mb-10 ",
   
     flexCenter: "flex justify-center items-center",
     flexWrap: "flex justify-center flex-wrap",
@@ -42,7 +48,6 @@ const styles = {
       "font-semibold font-IBMPlex text-base minlg:text-3xl text-tertiary",
     featureCard:
       "bg-white m-10 p-6 rounded-md flex justify-around items-center flex-col hover:shadow-lg cursor-pointer w-40 h-40 minlg:w-80 minlg:h-80",
-
     };
   
   export default styles;

@@ -3,7 +3,6 @@ import { Routes, Route} from "react-router-dom";
 import Docs from "./pages/Docs";
 import Home from './pages/Home'
 import Wallet from './pages/Wallet'
-import "./styles/App.css";
 
 function App() {
   //const linkProject = "https://web.lappsnet.io/"
