@@ -1,8 +1,38 @@
 import React from 'react'
+import 
+  { AccountRegistrationForm,
+    BackupModal,
+    ConfirmContractCallModal,
+    ConnectLoginDetected,
+    ConnectLoginNotDetected,
+    ContinueWithAccountConfirmation,
+    ContractCallModal,
+    CreateTxModal,
+    LogoutModal,
+    RecoverModal,
+    SignMessageModal,
+    SignTxModal,
+    SwitchAccountForm
+
+  } from "../components/wallet/index";
 
 const Wallet = () => {
   return (
-    <div>Wallet</div>
+    <>
+      <AccountRegistrationForm/>
+      <BackupModal/>
+      <ConfirmContractCallModal/>
+      <ConnectLoginDetected/>
+      <ConnectLoginNotDetected/>
+      <ContinueWithAccountConfirmation/>
+      <ContractCallModal/>
+      <CreateTxModal/>
+      <LogoutModal/>
+      <RecoverModal/>
+      <SignMessageModal/>
+      <SignTxModal/>
+      <SwitchAccountForm/>
+    </>
   )
 }
 
