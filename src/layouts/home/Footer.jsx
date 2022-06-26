@@ -16,7 +16,7 @@ const Footer = () => {
           © 2022 Lappsnet —
           <a
             href="https://mobile.twitter.com/leo_hio"
-            className="text-white-500 ml-1"
+            className="text-white ml-1"
             target="_blank"
             rel="noopener noreferrer"
           >

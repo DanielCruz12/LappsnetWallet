@@ -11,7 +11,7 @@ const styles = {
     textLeft: "text-left",
     textRight: "text-right",
 
-    a: "no-underline font-bold font-IBMPlex text-1xl sm:text-1xl minmd:text-3xl minlg:text-5xl leading-12 minmd:leading-13",
+    a: "no-underline text-white font-bold font-IBMPlex text-1xl sm:text-1xl minmd:text-3xl minlg:text-5xl leading-12 minmd:leading-13",
 
     title: "text-2xl font-semibold",
 

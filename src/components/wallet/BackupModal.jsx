@@ -22,7 +22,7 @@ const BackupModal = () => {
                     </legend>
                     <div className="row">
                       <div className="col-sm-4">
-                        <label for="encrypted">Backup data</label>
+                        <label htmlFor="encrypted">Backup data</label>
                       </div>
                       <div className="col-sm-8">
                         <input

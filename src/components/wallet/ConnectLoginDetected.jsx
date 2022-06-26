@@ -1,4 +1,5 @@
 import React from "react";
+import { Icon } from '@iconify/react';
 
 const ConnectLoginDetected = () => {
   return (
@@ -13,11 +14,8 @@ const ConnectLoginDetected = () => {
           </h3>
           <p className="text-center">
             <code className="addressDisplay" id="address-1"></code>{" "}
-            <span
-              className="iconify"
-              data-icon="akar-icons:copy"
-              style="color: #e83e8c;"
-            ></span>
+            <Icon icon="mdi-light:home" />
+
           </p>
           <div id="tokenBalances" className="m-1">
             <p
