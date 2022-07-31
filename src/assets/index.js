@@ -1,4 +1,4 @@
-import favicon from './img/favicon.svg';
+import favicon from './favicon.ico';
 import first from './first.png'
 import second from './second.png'
 import logo from './logo.png'
